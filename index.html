@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+<title>Ice Cream Quiz </title>
+<style>
+
+   body {
+       background: #ffebf0;}
+   a {
+           color: #4d2878;}
+    a:hover {
+           color: #743db3;}
+
+   header {
+       padding-left: 2rem;}
+   #container {
+       padding-left: 2rem;
+       padding-bottom: 2rem;
+}
+
+</style>
+</head>
+
+<body>
+
+
+
+<header>
+  <h1>Ice Cream Quiz</h1>
+  <p> This quiz will cover general knowledge about ice cream. <a href="https://en.wikipedia.org/wiki/Ice_cream" target="_blank"> <br> <b> The answers are somewhere in this article.</b> </a> Good luck. </p>
+</header>
+
+
+       <form>
+        <div class="container" id="container">
+         <div class="row">
+          <div class="col-lg-5 col-md-4">
+
+        <div class="form-group">
+          <label>In what country does ice cream originate? </label>
+           <label for="country">
+             <input class="form-control" type="text" name="country" id="country"></label>
+        </div>
+
+        <div class="form-group">
+          <label>The explanation for the growth of large crystals at the expense of small ones is called what? </label>
+          <label for="crystals">
+            <input class="form-control" type="text" name="crystals" id="crystals"></label>
+        </div>
+
+        <div class="form-group">
+          <label>Which American fast food chains helped popularize soft serve ice cream in the early 20th centrury? </label>
+           <label for="fastFood">
+             <textarea class="form-control" name="fastFood" id="fastFood" rows="5"> </textarea></label>
+        </div>
+
+        <div class="form-group">
+          <label> Which of these desserts does not have ice cream as an ingredient? (choose only one)</label>
+
+           <div class="form-check">
+            <label class="form-check-label">
+               <input class="form-check-input" type="radio" name="dessert" value="Baked Alaska"> Baked Alaska
+            </label>
+          </div>
+
+          <div class="form-check">
+           <label class="form-check-label">
+              <input class="form-check-input" type="radio" name="dessert" value="Banana Split"> Banana Split
+            </label>
+          </div>
+
+          <div class="form-check">
+           <label class="form-check-label">
+             <input class="form-check-input" type="radio" name="dessert" value="Chocolate Mousse"> Chocolate Mousse
+           </label>
+          </div>
+
+          <div class="form-check">
+           <label class="form-check-label">
+            <input class="form-check-input" type="radio" name="dessert" value="Milkshake"> Milkshake
+           </label>
+         </div>
+       </div>
+
+        <div class="form-group">
+         <label> Select all ingredients that are used in making ice cream. </label>
+      <div class="form-check">
+            <label class="form-check-label">
+              <input type="checkbox" class="form-check-input" name="ingredient" value="Milk">Milk
+            </label>
+           </div>
+
+        <div class="form-check">
+            <label class="form-check-label">
+            <input type="checkbox" class="form-check-input" name="ingredient" value="Cream">Cream
+           </label>
+          </div>
+
+        <div class="form-check">
+            <label class="form-check-label">
+            <input type="checkbox" class="form-check-input" name="ingredient" value="Gelatin">Gelatin
+            </label>
+         </div>
+
+        <div class="form-check">
+             <label class="form-check-label">
+             <input type="checkbox" class="form-check-input" name="ingredient" value="Sweetener">Sweetener
+             </label>
+           </div>
+       </div>
+
+        <div class="form-group">
+         <label for="IceCreamStyle"> Which of these is not the name of a style of ice cream?</label>
+           <select name="IceCreamStyle" size="6" id="IceCreamStyle">
+
+            <option value="kulfi">Kulfi</option>
+            <option value="sorbetti">Sorbetti</option>
+            <option value="frozen-yogurt">Frozen Yogurt</option>
+            <option value="bastani-sonnati">Bastani Sonnati</option>
+            <option value="pavlova">Pavlova</option>
+            <option value="sundae">Sundae</option>
+          </select>
+        </div>
+
+       <input type="submit" value="Submit the quiz">
+       <input type="reset" value="Reset">
+      </div>
+      </div>
+     </div>
+
+       </form>
+
+
+ </body>
+</html>
